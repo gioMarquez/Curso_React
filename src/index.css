@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+html, body {
+    @apply bg-violet-800 text-white font-mono
+     font-serif text-xl p-20
+}
+
+button {
+     @apply p-3 text-xl text-white bg-black rounded-3xl
+}
